@@ -1,0 +1,102 @@
+/* 
+Основной цвет фона №E5E5E5
+
+Цвет фона футер #F9F9FB
+
+Основнйо цвет текста #000000
+
+Доп цвет текста #7D7987
+
+Черный #000000
+
+Белый #ffffff
+
+Кнопка цвет #FB8F1D
+*/
+
+:root {
+  --first-color-background: #e5e5e5;
+  --color-footer-background: #f9f9fb;
+  --first-color-text: #000000;
+  --second-color-text: #7D7987:
+}
+
+body {
+    background-color: var(--first-color-background);
+    color: var(--first-color-text)
+}
+
+ul{
+    list-style: none;
+}
+
+/* Header */
+
+.nav-link{
+    color: #B8BECD;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--first-color-text);
+}
+
+.nav-link-button {
+    background-color: #ffffff;
+    color: #FB8F1D;
+}
+
+.nav-link-button:hover,
+.nav-link-button:focus {
+    background-color: #FB8F1D;
+    color: #ffffff;
+}
+
+/* Hero */
+
+.explore {
+    color: #202336;
+}
+
+
+.list{
+    color: #4A4C53;
+}    
+
+.newway > h2 {
+    color: #000000;
+}
+
+
+.newway > p {
+    color: #7D7987;
+}
+
+.section p {
+    color: #042521;
+}
+
+.link {
+    color: #FB8F1D;
+}
+
+.newway-s {
+    opacity: 0.85;
+}
+
+.stories {
+    color: #7D7987;
+}
+
+.footer > p {
+    color: #848484;
+}
+
+.footer > small {
+    color: #848484;
+}
+
+
+.footer li {
+    color: #848484;
+}

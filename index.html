@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Explore and Travel</title>
 </head>
 
 <body>
@@ -17,69 +18,72 @@
                 <img src="./img/logo.svg" width="41" alt="Логотип">
             </a>
 
-            <ul>
+            <ul class="nav">
                 <li>
-                    <a href="#">Home</a>
+                    <a class="nav-link" href="#">Home</a>
                 </li>
                 <li>
-                    <a href="#">Destinations</a>
+                    <a class="nav-link" href="#">Destinations</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a class="nav-link" href="#">About</a>
                 </li>
                 <li>
-                    <a href="#">Partner</a>
+                    <a class="nav-link" href="#">Partner</a>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <a href="#">Login</a>
+                    <button class="nav-link-button" type="button" href="#">Login</button>
                 </li>
                 <li>
-                    <a href="#">Register</a>
+                    <button class="nav-link-button" type="button" href="#">Register</button>
                 </li>
             </ul>
         </nav>
-        <h1>Explore and<br>
-            Travel</h1>
-
-        <h2>Holiday finder</h2>
-        <p>-</p>
-
-        <ul>
-            <li>
-                <button type="button" value="Location">Location</button>
-            </li>
-            <li>
-                <button type="button" value="Activity">Activity</button>
-            </li>
-            <li>
-                <button type="button" value="Grade">Grade</button>
-            </li>
-            <li>
-                <button type="button">Date</button>
-            </li>
-        </ul>
-
-        <ul>
-            <li>
-                <a href="#">Explore</a>
-            </li>
-        </ul>
-
-        <img src="./img/element3.png" width="20" alt="Элемент">
-             
-        <img src="./img/thousand-01.png" width="320" alt="Элемент1" />.
-                
-        <img src="/img/element2.png" width="26" alt="Элемент2">
-
-        <img src="/img/element.png" width="20" alt="Элемент3">
-
     </header>
+
 
     <!-- Блок Герой -->
     <main>
-        <section>
+        <section class="explore">
+            <h1>Explore and<br>
+                Travel</h1>
+
+            <h2>Holiday finder</h2>
+            <span>-</span>
+
+            <ul>
+                <li>
+                    <button class="nav-link-button list" type="button">Location</button>
+                </li>
+                <li>
+                    <button class="nav-link-button list" type="button">Activity</button>
+                </li>
+                <li>
+                    <button class="nav-link-button list" type="button">Grade</button>
+                </li>
+                <li>
+                    <button class="nav-link-button list" type="button">Date</button>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <button class="nav-link-button type="button" href="#">Explore</button>
+                </li>
+            </ul>
+
+            <img src="./img/element3.png" width="20" alt="Элемент">
+                
+            <img src="./img/thousand-01.png" width="320" alt="Элемент1" />.
+                    
+            <img src="/img/element2.png" width="26" alt="Элемент2">
+
+            <img src="/img/element.png" width="20" alt="Элемент3">
+        </section> 
+     
+        <section class="newway">
             <img src="./img/Thousand021.jpg" width="320" alt="Элемент4">
             <img src="./img/element4.jpg" width="20" alt="Элемент5">
             <img src="./img/element5.jpg" width="20" alt="Элемент6">
@@ -94,14 +98,14 @@
             <a href="#">Learn more</a>
         </section>
 
-        <section>
+        <section class="newway section">
             <h2>
                 Featured destinations
             </h2>
 
             <img src="./img/element31.jpg"  width="20" alt="Элемент7">
 
-            <a href="#">View all</a>
+            <a class="newway link" href="#">View all</a>
 
             <img src="./img/element32.png" width="20" alt="Элемент8">
 
@@ -129,7 +133,7 @@
             </ul>
         </section>
 
-        <section>
+        <section class="newway section">
             <img src="./img/GuidesbyThousandSunny.jpg" width="20" alt="Элекмент8">
 
             <h2>Guides by Thousand<br>
@@ -147,14 +151,14 @@
             <img src="./img/GuidesbyThousandSunny2.jpg" width="16" alt="Элекмент8">
         </section>
 
-        <section>
+        <section class="newway section">
             <h2>Testimonials</h2>
             <img src="./img/stars.jpg" width="189" alt="Звезды">
             <img src="./img/Vector2.jpg" width="22" alt="Элемент11">
             <P>“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi
             blandit sit amet turpis nec”</P>
             <h3>Edward Newgate</h3>
-            <span>Founder Circle</span>
+            <span class="newway-s">Founder Circle</span>
             <img src="./img/element6.jpg" width="32" alt="Элемент11">
             <img src="./img/photo.jpg" width="384" alt="Фото">
             <img src="./img/element7.jpg" width="42" alt="Элемент11">
@@ -185,44 +189,44 @@
             </a>
 
             <ul>
-                <li>
+                <li >
                     <img src="./img/storeis/image12.jpg" width="284" alt="stories2">
                     <h3>The many benefits of<br>
                     taking a healing holiday</h3>
-                    <p>‘Helaing holidays’ are on the rise
+                    <p class="stories">‘Helaing holidays’ are on the rise
                     tohelp maximise your health and happines...</p>
-                    <a href="#">Read more</a>
+                    <a class="link" href="#">Read more</a>
                 </li>
                 <li>
                     <img src="./img/storeis/image13.jpg" width="284" alt="stories3">
                     <h3>The best Kyoto restaurant<br>
                     to try Japanese food</h3>
-                    <p>From tofu to teahouses, here’s our guide to Kyoto’s best restaurants
+                    <p class="stories">From tofu to teahouses, here’s our guide to Kyoto’s best restaurants
                     to visit....</p>
-                    <a href="#">Read more</a></li>
+                    <a class="link" href="#">Read more</a></li>
                 <li>
                     <img src="./img/storeis/image14.jpg" width="284" alt="stories4">
                     <h3>Skip Chichen Itza and head<br>
                     to this remote Yucatan</h3>
-                    <p>It’s remote and challenging to get,
+                    <p class="stories">It’s remote and challenging to get,
                     but braving the jungle and exploring
                     these ruins without the....</p>
-                    <a href="#">Read more</a></li>
+                    <a class="link" href="#">Read more</a></li>
                 </li>
                 <li>
                     <img src="./img/storeis/image15.jpg" width="284" alt="stories5">
                     <h3>Surf’s up at these beginner<br>
                     spots around the world</h3>
-                    <p>If learning to surf has in on your to-
+                    <p class="stories">If learning to surf has in on your to-
                     do list for a while, the good news
                     is: it’s never too late...</p>
-                    <a href="#">Read more</a></li>
+                    <a class="link" href="#">Read more</a></li>
                 </li>
             </ul>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <a href="#">
             <img src="./img/logo.svg" width="44" alt="Логотип компании">
         </a>
