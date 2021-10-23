@@ -23,11 +23,16 @@
 
 body {
     background-color: var(--first-color-background);
-    color: var(--first-color-text)
+    color: var(--first-color-text);
+    font-family: "Inter", sans-serif;
 }
 
 ul{
     list-style: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* Header */
@@ -44,6 +49,11 @@ ul{
 .nav-link-button {
     background-color: #ffffff;
     color: #FB8F1D;
+
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 2.13;
+    align-items: center;
 }
 
 .nav-link-button:hover,
@@ -58,45 +68,136 @@ ul{
     color: #202336;
 }
 
+.explore > h1 {
+    font-family: "Playfair Display",sans-serif ;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.25;
+}
+
+.explore > h2{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.22;
+}
 
 .list{
     color: #4A4C53;
 }    
 
-.newway > h2 {
+.newway > h2,
+.section > h2 {
     color: #000000;
+
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.38;
 }
 
 
 .newway > p {
     color: #7D7987;
+
+    font-family: "Mulish", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.76;
 }
 
 .section p {
     color: #042521;
+
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1.47;
 }
 
-.link {
+.section span {
+    color: #042521;
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.section .pr{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.section .name{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 2.18;
+}
+
+.section .newway-s{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2.66;
+}
+
+.link,
+.newway .link {
     color: #FB8F1D;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 3.75;
+    align-items: center;
 }
 
 .newway-s {
     opacity: 0.85;
 }
 
-.stories {
+.section-stories{
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 1.57;
+}
+
+.section-list .stories {
     color: #7D7987;
+
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.73;
 }
 
-.footer > p {
-    color: #848484;
+.section-list .link {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.86;
 }
 
+/* Footer */
+
+.footer > p,
 .footer > small {
     color: #848484;
+
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.55;
 }
 
+.footer h3{
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 3.15;
+}
 
-.footer li {
-    color: #848484;
+.footer li{
+    font-family: "Mulish", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 2.11;
+}
+
+.footer a{
+    color:#848484;
 }
